@@ -23,9 +23,11 @@ module.exports = defineConfig({
   e2e: {
     
     baseUrl:('https://advantageonlineshopping.com'),
-    defaultCommandTimeout: 15000, // Tempo em milissegundos (3 segundos)
-    specPattern: "**/*.feature",
-    
+    defaultCommandTimeout: 15000, 
+    specPattern:  [
+           '**/*.feature', 
+           '**/*.cy.js'       
+    ],
  //   waitForAnimations: false,
  //   animationDistanceThreshold: 50,
     setupNodeEvents,
