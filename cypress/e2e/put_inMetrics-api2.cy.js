@@ -38,7 +38,7 @@ describe('Teste API InMetrics - PUT', () => {
             body: 
                 {
                     "color": 'red',
-                    "file": "C:\Users\Dan\Downloads\teste-api.jpg",
+                    "file": "../fixtures/teste-api.jpg",
                     "product_id": "1",
                     "source": "10",
                     "userId": "710740848"
