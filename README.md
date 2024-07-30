@@ -1,7 +1,8 @@
 # Documentação de Testes Automatizados com Cypress e Cucumber
 
 ## Visão Geral
-Este repositório contém um conjunto de testes automatizados para a plataforma Advantage Online Shopping, desenvolvido com Cypress e Cucumber. O objetivo é demonstrar a aplicação de conhecimentos técnicos em automação e testes, focando em aspectos críticos da funcionalidade de e-commerce, incluindo a busca de produtos, a adição ao carrinho e a validação dos itens no checkout.
+Este repositório contém um conjunto de testes automatizados propostos pela equipe da InMetrics na plataforma Advantage Online Shopping, desenvolvido com Cypress e Cucumber. O objetivo é demonstrar a aplicação de um modo abrangente e demonstrar conhecimentos técnicos em automação e testes, focando em aspectos críticos da funcionalidade de e-commerce. Os testes incluem a busca de produtos, a adição de itens ao carrinho e a validação dos produtos no processo de checkout, evidenciando a capacidade de assegurar a qualidade e a funcionalidade da plataforma de forma eficiente e eficaz.
+
 
 ## Estrutura do Projeto
 - **Feature Files**: Definem os cenários de teste em linguagem Gherkin.
@@ -19,8 +20,8 @@ Este repositório contém um conjunto de testes automatizados para a plataforma 
 1. **Clonar o Repositório**:
 
     ```sh
-    git clone https://github.com/seuusername/automation-testing.git
-    cd automation-testing
+    git clone https://github.com/danilera-sp/testeinmetrics
+    cd testeinmetrics
     ```
 
 2. **Instalar Dependências**:
