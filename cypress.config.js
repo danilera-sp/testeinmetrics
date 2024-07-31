@@ -26,7 +26,7 @@ module.exports = defineConfig({
     defaultCommandTimeout: 15000, 
     specPattern:  [
            '**/*.feature', 
-           '**/*.cy.js'       
+      //     '**/*.cy.js'       
     ],
  //   waitForAnimations: false,
  //   animationDistanceThreshold: 50,

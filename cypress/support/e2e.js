@@ -18,5 +18,7 @@
 //import '../fixtures/dados.json'
 import '../support/pages/home_page'
 import '../support/pages/product_page'
+import '../support/API/get_inMetrics-api'
+import './API/put_inMetrics-api'
 // Alternatively you can use CommonJS syntax:
 // require('./commands')

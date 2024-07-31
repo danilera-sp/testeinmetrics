@@ -1,19 +1,23 @@
 # Documentação de Testes Automatizados com Cypress e Cucumber
 
 ## Visão Geral
-Este repositório contém um conjunto de testes automatizados propostos pela equipe da InMetrics na plataforma Advantage Online Shopping, desenvolvido com Cypress e Cucumber. O objetivo é demonstrar a aplicação de um modo abrangente e demonstrar conhecimentos técnicos em automação e testes, focando em aspectos críticos da funcionalidade de e-commerce. Os testes incluem a busca de produtos, a adição de itens ao carrinho e a validação dos produtos no processo de checkout, evidenciando a capacidade de assegurar a qualidade e a funcionalidade da plataforma de forma eficiente e eficaz.
+Este repositório demonstra um conjunto de testes automatizados projetados para a plataforma Advantage Online Shopping, conforme solicitado pela equipe da InMetrics. Utilizando as ferramentas Cypress e Cucumber, este projeto evidencia meus conhecimentos em automação de testes e validação de sistemas.
+Este trabalho reflete minha capacidade de aplicar técnicas de automação e meu conhecimento técnico, resultando em uma cobertura das funcionalidades solicitadas.
 
+
+## Resultado dos Testes Manuais
+Os testes manuais estão documentados em um arquivo PDF, disponível na pasta `Testes Manuais`.
 
 ## Estrutura do Projeto
-- **Feature Files**: Definem os cenários de teste em linguagem Gherkin.
-- **Step Definitions**: Implementam as etapas do teste usando Cypress.
+- **Feature Files**: Contêm os cenários de teste escritos em linguagem Gherkin.
+- **Step Definitions**: Implementam as etapas dos testes usando Cypress.
 - **API Tests**: Validam a integração e a funcionalidade das APIs da plataforma.
 
 ## Requisitos
-- Node.js (>= 12.x)
-- npm (>= 6.x)
-- Cypress (>= 12.x)
-- Cucumber (>= 8.x)
+- **Node.js** (>= 12.x)
+- **npm** (>= 6.x)
+- **Cypress** (>= 12.x)
+- **Cucumber** (>= 8.x)
 
 ## Configuração do Ambiente
 
@@ -41,4 +45,18 @@ Este repositório contém um conjunto de testes automatizados propostos pela equ
     ```
 
 2. **Selecionar e Executar Testes**:
-   - Na interface do Test Runner
+   - Na interface do Test Runner, selecione os testes desejados para executar.
+
+### Testes de API
+
+1. **Executar Testes de API**:
+
+    ```sh
+    npx cypress run --spec 'cypress/integration/api/*.spec.js'
+    ```
+
+## Licença
+Este projeto está licenciado sob a [Licença MIT](LICENSE).
+
+## Contato
+Para mais informações, entre em contato com a equipe da InMetrics através do e-mail: contato@inmetrics.com.br.

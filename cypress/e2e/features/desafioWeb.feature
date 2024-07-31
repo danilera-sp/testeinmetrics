@@ -1,9 +1,9 @@
 Feature: Desafio Web
     Eu como candidato pretendo apresentar meus conhecimentos tecnicos em automação e testes 
-    Apresento o Framework solicitado nos arquivo .doc e conforme solicitado, esta automação esta apta a:
+    Apresento o Framework solicitado no arquivo .doc e conforme solicitado, esta automação esta apta a:
     fazer busca de um produto
-    Selecionar e incluir um ou mais produtos no mesmo no carrinho
-    validar os produtos incluidos no carrinho apresentados na tela de pagamento, para realizar uma compra.
+    Selecionar e incluir um produto no carrinho
+    validar que o produto incluido no carrinho é apresentados na tela de pagamento, para realizar uma compra.
 
 
 
