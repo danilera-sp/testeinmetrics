@@ -55,8 +55,4 @@ Os testes manuais estão documentados em um arquivo PDF, disponível na pasta `T
     npx cypress run --spec 'cypress/integration/api/*.spec.js'
     ```
 
-## Licença
-Este projeto está licenciado sob a [Licença MIT](LICENSE).
 
-## Contato
-Para mais informações, entre em contato com a equipe da InMetrics através do e-mail: contato@inmetrics.com.br.
